@@ -1,0 +1,150 @@
+{
+  "profile": {
+    "name": "Your Name",
+    "tagline": "Video Editor · Audio Engineer · Podcast Producer",
+    "location": "Kathmandu, Nepal",
+    "bio": "I craft compelling audio-visual stories from the heart of Kathmandu. Specialising in video editing, audio engineering, and podcast production — working with hydropower companies, institutions, and independent creators across Nepal.",
+    "email": "your@email.com",
+    "instagram": "https://instagram.com/yourhandle",
+    "youtube": "https://youtube.com/yourchannel",
+    "avatar": "assets/avatar.jpg"
+  },
+  "services": [
+    {
+      "id": "video",
+      "icon": "▶",
+      "title": "Video Editing",
+      "description": "From raw footage to polished final cut. Corporate events, AGMs, documentary, interviews, and creative content for institutions and independent clients."
+    },
+    {
+      "id": "audio",
+      "icon": "◉",
+      "title": "Audio Engineering",
+      "description": "Professional recording, mixing, mastering, noise reduction, and sound design. Dialogue cleanup to broadcast-ready masters."
+    },
+    {
+      "id": "podcast",
+      "icon": "◎",
+      "title": "Podcast Production",
+      "description": "End-to-end podcast production — recording, editing, engineering, and delivery-ready masters. Weekly productions for institutional clients."
+    }
+  ],
+  "work": {
+    "video": [
+      {
+        "id": "v1",
+        "title": "Dr. Anish Ghimire: A Conversation About Environmental Engineering",
+        "client": "FECAM — KU Environmental Engineering & Science Club",
+        "description": "Digo Podcast #1 — In conversation with Dr. Anish Ghimire, Environmental Engineer and Coordinator of the Environmental Engineering program at Kathmandu University.",
+        "thumbnail": "https://img.youtube.com/vi/OGbaB13vaYU/maxresdefault.jpg",
+        "type": "youtube",
+        "url": "https://youtu.be/OGbaB13vaYU",
+        "tags": ["Digo Podcast", "Interview", "FECAM", "Episode 1"]
+      },
+      {
+        "id": "v2",
+        "title": "Dr. Kumud Raj Kafle: Environmental Studies and Seismic Risks of Nepal",
+        "client": "FECAM — KU Environmental Engineering & Science Club",
+        "description": "Digo Podcast #2 — A conversation with Dr. Kumud Raj Kafle on environmental studies and the seismic risks facing Nepal.",
+        "thumbnail": "https://img.youtube.com/vi/Z5D9CHxrc1g/maxresdefault.jpg",
+        "type": "youtube",
+        "url": "https://youtu.be/Z5D9CHxrc1g",
+        "tags": ["Digo Podcast", "Interview", "FECAM", "Episode 2"]
+      },
+      {
+        "id": "v3",
+        "title": "Dr. Bikash Adhikari: Vice-Chairperson of Nepal Engineering Council",
+        "client": "FECAM — KU Environmental Engineering & Science Club",
+        "description": "Digo Podcast — In conversation with Dr. Bikash Adhikari, Vice-Chairperson of the Nepal Engineering Council (NEC).",
+        "thumbnail": "https://img.youtube.com/vi/KojcgaWzxVI/maxresdefault.jpg",
+        "type": "youtube",
+        "url": "https://youtu.be/KojcgaWzxVI",
+        "tags": ["Digo Podcast", "Interview", "FECAM", "NEC"]
+      },
+      {
+        "id": "v4",
+        "title": "Dr. Dhundi Raj Pathak: President of CREEW",
+        "client": "FECAM — KU Environmental Engineering & Science Club",
+        "description": "Digo Podcast — Conversation with Dr. Dhundi Raj Pathak, President of the Center of Research for Environment, Energy & Water (CREEW).",
+        "thumbnail": "https://img.youtube.com/vi/PwHWStQWshA/maxresdefault.jpg",
+        "type": "youtube",
+        "url": "https://youtu.be/PwHWStQWshA",
+        "tags": ["Digo Podcast", "Interview", "FECAM", "CREEW"]
+      },
+      {
+        "id": "v5",
+        "title": "KU Robotics Club",
+        "client": "Kathmandu University Robotics Club",
+        "description": "Recording and video production for KU Robotics Club — events, showcases, and club activities. (Upload coming soon)",
+        "thumbnail": "",
+        "type": "local",
+        "url": "",
+        "tags": ["University", "Robotics", "Event"]
+      }
+    ],
+    "audio": [
+      {
+        "id": "a1",
+        "title": "Podcast with Ramesh Maskey Sir",
+        "client": "KU Robotics Club",
+        "description": "Full podcast production — recording, audio engineering, noise reduction, mixing and mastering. Long-form interview with Ramesh Maskey Sir.",
+        "type": "audio",
+        "url": "",
+        "duration": "--:--",
+        "tags": ["Podcast", "Interview", "Engineering"]
+      },
+      {
+        "id": "a2",
+        "title": "Barasinghe Production Plant Interview",
+        "client": "Independent",
+        "description": "On-location interview recording and audio post-production for the Barasinghe Production Plant feature.",
+        "type": "audio",
+        "url": "",
+        "duration": "--:--",
+        "tags": ["Interview", "On-location", "Post-production"]
+      }
+    ],
+    "podcast": [
+      {
+        "id": "p1",
+        "title": "Hospital Podcast Series",
+        "client": "Healthcare Institution — Kathmandu",
+        "description": "Weekly podcast production — 6 episodes per week, 40 minutes each. Full service: recording, audio engineering, editing, and delivery. Ongoing institutional contract.",
+        "type": "audio",
+        "url": "",
+        "duration": "--:--",
+        "tags": ["Ongoing", "Healthcare", "6 eps/week", "Audio Engineering"]
+      },
+      {
+        "id": "p2",
+        "title": "Interview with Ramesh Maskey Sir",
+        "client": "KU Robotics Club",
+        "description": "Long-form podcast interview recorded and produced for Kathmandu University Robotics Club. Full production from recording to mastered deliverable.",
+        "type": "audio",
+        "url": "",
+        "duration": "--:--",
+        "tags": ["Interview", "University", "Long-form"]
+      }
+    ]
+  },
+  "gear": [
+    "Sony a6700",
+    "Sigma 16mm f/1.4 DC DN",
+    "Tamron 70-180mm f/2.8",
+    "DJI Mic Mini",
+    "Zoom H8",
+    "Shure SM57",
+    "Shure SM58",
+    "AKG P420",
+    "Smallrig Cage + Top Handle",
+    "DJI Mini 3 Drone",
+    "Video Tripod"
+  ],
+  "software": [
+    "DaVinci Resolve",
+    "iZotope RX",
+    "Reaper",
+    "Audacity",
+    "Adobe Premiere Pro"
+  ]
+}

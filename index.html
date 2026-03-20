@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Video · Audio · Podcast</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Grain overlay -->
+<div class="grain"></div>
+
+<!-- Navigation -->
+<nav id="nav">
+  <div class="nav-inner">
+    <div class="nav-logo" id="nav-logo">
+      <span class="logo-mark">◈</span>
+      <span class="logo-text">PORTFOLIO</span>
+    </div>
+    <div class="nav-links">
+      <a href="#work" class="nav-link">Work</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#gear" class="nav-link">Kit</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+    <button class="nav-burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#work" class="mob-link">Work</a>
+  <a href="#services" class="mob-link">Services</a>
+  <a href="#gear" class="mob-link">Kit</a>
+  <a href="#contact" class="mob-link">Contact</a>
+</div>
+
+<!-- Hero -->
+<section id="hero">
+  <div class="hero-bg">
+    <div class="hero-line h-line-1"></div>
+    <div class="hero-line h-line-2"></div>
+    <div class="hero-line h-line-3"></div>
+    <div class="hero-circle"></div>
+  </div>
+  <div class="hero-inner">
+    <div class="hero-eyebrow">
+      <span class="eyebrow-dot"></span>
+      <span id="h-location">Kathmandu, Nepal</span>
+    </div>
+    <h1 class="hero-name" id="h-name">Your<br><em>Name</em></h1>
+    <p class="hero-tagline" id="h-tagline">Video Editor · Audio Engineer · Podcast Producer</p>
+    <div class="hero-actions">
+      <a href="#work" class="btn-primary">See My Work</a>
+      <a href="#contact" class="btn-ghost">Get in Touch</a>
+    </div>
+    <div class="hero-ticker">
+      <div class="ticker-track" id="ticker-track"></div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- Services -->
+<section id="services">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">01</span>
+      <h2 class="section-title">Services</h2>
+    </div>
+    <div class="services-grid" id="services-grid"></div>
+  </div>
+</section>
+
+<!-- Work -->
+<section id="work">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <h2 class="section-title">Work</h2>
+    </div>
+
+    <!-- Tabs -->
+    <div class="work-tabs">
+      <button class="work-tab active" data-tab="video">
+        <span class="tab-icon">▶</span> Video
+      </button>
+      <button class="work-tab" data-tab="audio">
+        <span class="tab-icon">◉</span> Audio
+      </button>
+      <button class="work-tab" data-tab="podcast">
+        <span class="tab-icon">◎</span> Podcast
+      </button>
+    </div>
+
+    <!-- Work panels -->
+    <div class="work-panels">
+      <div class="work-panel active" id="panel-video"></div>
+      <div class="work-panel" id="panel-audio"></div>
+      <div class="work-panel" id="panel-podcast"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Gear -->
+<section id="gear">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">03</span>
+      <h2 class="section-title">Kit & Software</h2>
+    </div>
+    <div class="gear-layout">
+      <div class="gear-col">
+        <h3 class="gear-col-title">Hardware</h3>
+        <ul class="gear-list" id="gear-list"></ul>
+      </div>
+      <div class="gear-col">
+        <h3 class="gear-col-title">Software</h3>
+        <ul class="gear-list" id="software-list"></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num">04</span>
+      <h2 class="section-title">Contact</h2>
+    </div>
+    <div class="contact-layout">
+      <div class="contact-left">
+        <p class="contact-intro" id="c-bio"></p>
+        <div class="contact-links" id="contact-links"></div>
+      </div>
+      <form class="contact-form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" name="name" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" name="email" placeholder="your@email.com" required>
+        </div>
+        <div class="form-group">
+          <label>Service needed</label>
+          <select name="service">
+            <option value="">Select a service...</option>
+            <option>Video Editing</option>
+            <option>Audio Engineering</option>
+            <option>Podcast Production</option>
+            <option>Full Production Package</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea name="message" placeholder="Tell me about your project..." rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn-primary btn-full">Send Message</button>
+        <p class="form-note">Or email directly: <a id="email-link" href="#"></a></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">◈</div>
+    <p class="footer-copy" id="footer-copy"></p>
+    <p class="footer-made">Made with care in Kathmandu</p>
+  </div>
+</footer>
+
+<!-- Lightbox / Modal -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lb-close">✕</button>
+  <div class="lightbox-content" id="lb-content"></div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
